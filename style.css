@@ -1,0 +1,33 @@
+h1{color: chocolate;}
+*{border: solid;}
+p{color: darkgreen;}
+p{border: dotted;}
+a{color: brown;}
+a{border: darkmagenta;}
+.header{
+    display:flex;
+    background: darkblue;
+    border-color: darkred;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    background: cyan;
+    border: darkgoldenrod;
+    justify-content: center;
+}
+.link{
+    display: flex;
+    background: darksalmon;
+    border-color: darkslategray;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-basis: auto;
+}
+.img{
+    display: flex;
+    background: darkred;
+    border: hotpink;
+    justify-content: space-between;
+    flex-direction: column;
+}
